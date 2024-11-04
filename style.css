@@ -1,0 +1,97 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-image: url("bg.jpg");
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: rgb(42, 3, 125);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Content container styling */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Header styling */
+.container h1 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Section styling */
+.container h2 {
+    font-size: 22px;
+    color:white;
+    margin-bottom: 10px;
+}
+
+.container h3 {
+    color:white;
+    margin-bottom: 10px;
+    
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: white;
+}
+
+/* List styling */
+.container ul {
+    margin: 10px 0 20px 20px;
+    padding-left: 20px;
+}
+
+.container ul li {
+    list-style-type: disc;
+    margin-bottom: 8px;
+}
+
+.container ul ul li {
+    list-style-type: none;
+    color: white;
+    margin-bottom: 5px;
+}
